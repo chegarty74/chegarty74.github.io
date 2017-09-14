@@ -1,1 +1,6 @@
 /* Here is the beginning of my style sheet for Larry's page */
+
+* {
+    box-sizing: border-box;
+}
+.social-logo {}

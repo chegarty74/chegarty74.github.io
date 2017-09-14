@@ -1,0 +1,1 @@
+alert("Class 4 Example");
