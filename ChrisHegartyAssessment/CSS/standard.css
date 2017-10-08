@@ -1,0 +1,110 @@
+                        * {
+                        margin: 0;
+                        /*border: solid 1px black;*/
+                    }
+                    body {
+                        box-sizing: border-box;
+                        background-image: url("/chegarty74.github.io/ChrisHegartyAssessment/Images/playful-kitten-6683.jpg");
+                        background-size: 90%;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+                    h1 {
+                        font-size: 10vh;
+                        display: inline-block;
+                        margin-left: 2vw
+                    }
+                    span {
+                        color: orange;
+                        text-shadow: 2px 2px black;
+                    }
+                    div #netflix {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                    }
+                    h2 {
+                        font-size: 4vh;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 2vw;
+                    }
+                    #logo {
+                        height: 12vh;
+                    }
+                    #closeButton {
+                        display: none;
+                        top: 31%;
+                        right: 20%;
+                        position: absolute;
+                    }
+                    table {
+                        display: none;
+                        font-size: 4vh;
+                        box-sizing: content-box;
+                        border: 5px solid orange;
+                        border-radius: 2%;
+                        color: orange;
+                        background-color: rgba(0, 0, 0, 0.8);
+                        max-width: 60vw;
+                        max-height: 60vh;
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                    nav {
+                        font-size: 5vh;
+                        color: orange;
+                        text-shadow: 1px 1px black;
+                    }
+                    a {
+                        padding: 1vw;
+                        text-decoration: none;
+                        color: orange;
+                        display: inline-block;
+                    }
+                    a:hover {
+                        transform: translateY(-10px);
+                    }
+                    #navContainer {
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-top: 35%;
+                        margin-right: 5%;
+                    }
+                    @media all and (max-width: 576px) {
+                        body {
+                            text-align: center;
+                            background-repeat: no-repeat;
+                            background-position: bottom center;
+                        }
+                        h2 {
+                            justify-content: center;
+                        }
+                        table {
+                            width: 100%;
+                        }
+                        div #navContainer {
+                            justify-content: center;
+                            padding: none;
+                        }
+                        nav {
+                            font-size: 4vh;
+                        }
+                    }
+                    @media all and (max-width: 768px) {
+                        table,
+                        tr,
+                        td {
+                            display: block;
+                            max-height: 95%;
+                            border-bottom: 1px solid orange
+                        }
+                        #closeButton {
+                            display: none;
+                            top: 10%;
+                            right: 20%;
+                            position: absolute;
+                        }

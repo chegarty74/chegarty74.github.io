@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    background-color: #6297FF;
+    display: inline-block;
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+}
+ul {
+    text-align: center;
+    position: relative;
+    right: 1vw;
+}
+li {
+    display: inline;
+    position: relative;
+}
+main {
+    position: relative;
+    top: 20vh;
+}
+#container {
+    background-color: yellow;
+    height: 50vh;
+    position: relative;
+}
+
+/* Below, the width and height refer to the percentage of the container above: 50vh.
+Boxes 1,2 and 3 are all absolute to the container, which is marked relative. 
+*/
+
+.box {
+    width: 25%;
+    height: 25%;
+    background-color: red;
+    display: inline-block;
+    border: 10px solid black;
+}
+#box1 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+#box2 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+#box3 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
