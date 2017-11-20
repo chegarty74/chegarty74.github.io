@@ -1,0 +1,39 @@
+#internalPageBodyStyle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#internalPageText {
+    width: 50%;
+    height: auto;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 1.15rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 1.15rem;
+    margin: 0.5% 0 0.5% 0;
+
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 1.15rem;
+}
+
+p {
+    margin: 1%;
+}
