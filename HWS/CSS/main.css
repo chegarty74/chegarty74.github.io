@@ -531,6 +531,14 @@ h3 {
         width: 100%;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
     #socialRow {
         margin-top: 3%;
     }
@@ -538,6 +546,14 @@ h3 {
     #jobSeekerNav {
         width: 100%;
         text-align: center;
+    }
+
+    #jobSeekerNav ul {
+        height: auto;
+    }
+
+    #jobSeekerNav li {
+        padding: 2%;
     }
 
     #socialRowJS {
@@ -574,6 +590,9 @@ h3 {
         display: none;
     }
 
+    #buffer {
+        margin-bottom: 0;
+    }
 
 
 }
