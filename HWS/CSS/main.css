@@ -527,13 +527,51 @@ h3 {
         display: none;
     }
 
+    #jobSeekerBanner {
+        width: 100%;
+    }
+
     #socialRow {
-        margin-top: 0;
+        margin-top: 3%;
     }
 
     #jobSeekerNav {
         width: 100%;
         text-align: center;
+    }
+
+    #socialRowJS {
+        margin-top: 0;
+    }
+
+    /* This code collapses the footer by hiding all divs except the left div containing the logo*/
+    #footerLogo {
+        width: 80%;
+    }
+
+    #footerLogo img {
+        width: 80%;
+
+    }
+
+    #footerJobSeekers {
+        display: none;
+    }
+
+    #footerJobSeekers {
+        display: none;
+    }
+
+    #footerEmployers {
+        display: none;
+    }
+
+    #footerCareerResources {
+        display: none;
+    }
+
+    #footerAboutUs {
+        display: none;
     }
 
 
