@@ -23,3 +23,23 @@ ul {
     color: darkslategray;
     font-size: 1.15rem;
 }
+
+@media all and (min-width: 0px) and (max-width: 991px) {
+
+    #internalPageBodyStyle {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #internalPageText {
+        width: 100%;
+        height: auto;
+        padding: 2%;
+    }
+
+
+
+}
