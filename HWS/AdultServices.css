@@ -1,0 +1,45 @@
+#internalPageBodyStyle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#internalPageText {
+    width: 50%;
+    height: auto;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 1.15rem;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 1.15rem;
+}
+
+@media all and (min-width: 0px) and (max-width: 991px) {
+
+    #internalPageBodyStyle {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #internalPageText {
+        width: 100%;
+        height: auto;
+        padding: 2%;
+    }
+
+
+
+}
