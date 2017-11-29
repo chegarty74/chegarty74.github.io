@@ -10,7 +10,7 @@
 .mainContainer {
     height: 100vh;
     padding: 1rem;
-    padding-top: 10vh;
+    padding-top: 5vh;
 
 }
 
@@ -37,7 +37,7 @@ header {
     left: 0;
     position: fixed;
     background: #ffffff;
-    height: 10vh;
+    height: 5vh;
     width: 100%;
     /*display: flex;
     justify-content: flex-end;*/
@@ -49,7 +49,7 @@ header {
 }
 
 nav {
-    height: 10vh;
+    height: 5vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -64,26 +64,43 @@ nav {
     flex-direction: row;
     justify-content: center;
     /*background: #ffffff;*/
-    padding-top: 2%
+    padding-top: 0%
 }
 
 #hwsLogo {
-    max-height: 30vh;
+    max-height: 15vh;
+}
+
+.carouselContainer {
+
+
+    height: 30vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carouselContainerImg {
+    height: 100%;
+    width: 100%;
+
+
 }
 
 #missionStatement {
     font-family: 'Montserrat', sans-serif;
 
     color: #6D7070;
-    font-size: 1.15rem;
+    font-size: 1.0rem;
     /*font-style: italic;*/
     text-align: center;
     margin: 0;
     letter-spacing: .02em;
-    padding: 1vh;
+    padding: 0vh;
     /*background: #ffffff;*/
-    width: 50vw;
-    margin-left: 25%;
+    width: 90vw;
+    margin-left: 0%;
 
 }
 
@@ -94,7 +111,7 @@ nav {
     justify-content: space-around;
     align-items: center;
 
-    padding-top: 15vh;
+    padding-top: 0vh;
 }
 
 .fourNavLinks {
@@ -109,10 +126,10 @@ nav {
    height: 15vh;
     width: 20vw; */
     width: 100%;
-    min-height: 15vh;
+    min-height: 0vh;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    line-height: 15vh;
+    line-height: 10vh;
     flex-wrap: wrap;
 
 
@@ -149,20 +166,21 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 0vh;
 }
 
 .socialLogo {
-    height: 7vh;
+    height: 5vh;
     margin: 0 2vw 0 2vw;
 }
 
 .footerLinks {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 1%;
+    margin-top: 0%;
     color: #DB490E;
-    font-size: 1.1rem
+    font-size: 1.1rem;
+
 }
 
 .footerLinks a {
@@ -170,7 +188,7 @@ nav {
 }
 
 #buffer {
-    margin-bottom: 2vh;
+    margin-bottom: 0vh;
 }
 
 
@@ -515,9 +533,9 @@ h3 {
     }
 
     .fourNavLinks {
-        margin: 0rem;
+        margin: 1rem;
         width: 100%;
-        min-height: 7vh;
+        min-height: 10vh;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         line-height: 10vh;
@@ -537,23 +555,15 @@ h3 {
 
     h2 {
         font-size: 1rem;
-        display: none;
     }
 
     #socialRow {
-        margin-top: 2%;
-    }
-
-    .footerLinks {
-        font-size: .5rem;
+        margin-top: 3%;
     }
 
     #jobSeekerNav {
         width: 100%;
         text-align: center;
-        font-size: .85rem;
-        height: 35vh;
-
     }
 
     #jobSeekerNav ul {
@@ -565,37 +575,17 @@ h3 {
     }
 
     #socialRowJS {
-
-        display: none;
+        margin-top: 0;
     }
 
     /* This code collapses the footer by hiding all divs except the left div containing the logo*/
-    footer {
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
     #footerLogo {
         width: 80%;
     }
 
     #footerLogo img {
-        width: 50%;
-    }
+        width: 80%;
 
-    #hwsVerticalLogo {
-
-        max-height: 15vh;
-        width: 90%;
-        margin-top: 0%;
-
-    }
-
-    #contactText {
-        padding: 1%;
     }
 
     #footerJobSeekers {
