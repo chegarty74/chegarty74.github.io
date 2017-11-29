@@ -1,0 +1,66 @@
+#internalPageBodyStyle {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#internalPageText {
+    width: 50%;
+    height: auto;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 1.15rem;
+}
+
+ul {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 1.15rem;
+}
+
+
+.scrollup {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    /*text-indent: -9999px;*/
+    background: url('icon_top.png') no-repeat;
+    background-color: #EB6E1F;
+    text-decoration: none;
+
+}
+
+#scrolluparrow {
+    height: 100%;
+    padding: 5%
+}
+
+
+@media all and (min-width: 0px) and (max-width: 991px) {
+
+    #internalPageBodyStyle {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #internalPageText {
+        width: 100%;
+        height: auto;
+        padding: 2%;
+    }
+
+
+
+}
