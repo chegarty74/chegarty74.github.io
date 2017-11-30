@@ -481,9 +481,10 @@ h3 {
 
     #logo {
 
-        width: 33vw;
+
+        width: 80vw;
         z-index: 1;
-        margin-left: 33vw;
+        margin-left: 4vw;
         padding: 0;
 
     }
