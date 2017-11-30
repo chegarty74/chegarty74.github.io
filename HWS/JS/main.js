@@ -1,4 +1,5 @@
 $(document).ready(function () {
+
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
 
@@ -12,6 +13,8 @@ $(document).ready(function () {
         });
     });
 
+    //Code for mobile nav scroll toggle:
+
     $("#menu-toggle").click(function () {
         $("nav").slideToggle(500);
     });
@@ -19,10 +22,5 @@ $(document).ready(function () {
     $(".navlinks").click(function () {
         $("nav").slideUp(500);
     });
-
-
-
-
-
 
 });
