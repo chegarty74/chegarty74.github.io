@@ -578,13 +578,11 @@ h3 {
         height: 80%;
     }
 
-    #footerLogo img {
-        width: 50%;
-    }
+
 
     #hwsVerticalLogo {
 
-        max-height: 15vh;
+        max-height: 100%;
         width: 90%;
         margin-top: 0%;
 
