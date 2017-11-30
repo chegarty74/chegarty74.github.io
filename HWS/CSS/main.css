@@ -60,15 +60,14 @@ nav {
 }
 
 #logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /*background: #ffffff;*/
+    width: 33vw;
+    margin-left: 33vw;
     padding-top: 2%
 }
 
 #hwsLogo {
-    max-height: 30vh;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #missionStatement {
@@ -291,9 +290,6 @@ p {
     justify-content: center;
 }
 
-footer {
-    height: 50vh;
-}
 
 #mobileNav {
     height: 100vh;
@@ -311,12 +307,14 @@ footer {
     font-size: 1.5rem;
 }
 
+/* BEGIN FOOTER CSS */
+
 footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 50vh;
-    background-color: dodgerblue
+    height: 70vh;
+    background-color: dodgerblue;
 }
 
 #footerLogo {
@@ -418,7 +416,6 @@ h3 {
 }
 
 
-
 /* MEDIA QUERIES */
 
 @media all and (min-width: 0px) and (max-width: 991px) {
@@ -456,7 +453,6 @@ h3 {
 
     }
 
-
     #menu-toggle {
 
         height: 10vh;
@@ -476,7 +472,6 @@ h3 {
         max-width: 100%;
         margin-top: 12%;
 
-
     }
 
     .separator {
@@ -485,11 +480,11 @@ h3 {
 
 
     #logo {
-        height: 17vh;
-        width: 80vw;
-        z-index: 1;
-        margin-left: 5%;
 
+        width: 33vw;
+        z-index: 1;
+        margin-left: 33vw;
+        padding: 0;
 
     }
 
@@ -580,6 +575,7 @@ h3 {
 
     #footerLogo {
         width: 80%;
+        height: 80%;
     }
 
     #footerLogo img {
