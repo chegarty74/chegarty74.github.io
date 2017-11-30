@@ -525,6 +525,7 @@ h3 {
 
     #jobSeekerBanner {
         width: 100%;
+        margin: 0;
     }
 
     h1 {
@@ -557,7 +558,7 @@ h3 {
     }
 
     #jobSeekerNav li {
-        padding: 2%;
+        padding: 1%;
     }
 
     #socialRowJS {
