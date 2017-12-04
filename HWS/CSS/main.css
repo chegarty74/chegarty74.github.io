@@ -176,13 +176,13 @@ nav {
 /* Begin Job Seekers CSS */
 
 #jobSeekersSection {
-    background-color: #CBECB3;
+    background-color: #d3d3d3;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-
+/* These style the four big headline banners in each of the four section of the index page: */
 
 #jobSeekerBanner {
     width: 70%;
@@ -190,7 +190,43 @@ nav {
     padding: 1%;
     margin: auto;
     border: thick solid #ffffff;
-    background: #ffb380;
+    background: #DB490E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#businessesBanner {
+    width: 70%;
+    height: 20vh;
+    padding: 1%;
+    margin: auto;
+    border: thick solid #ffffff;
+    background: #0E490E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#careerResourcesBanner {
+    width: 70%;
+    height: 20vh;
+    padding: 1%;
+    margin: auto;
+    border: thick solid #ffffff;
+    background: #0E4944;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutUsBanner {
+    width: 70%;
+    height: 20vh;
+    padding: 1%;
+    margin: auto;
+    border: thick solid #ffffff;
+    background: #0E49A3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -253,6 +289,7 @@ p {
     font-family: 'Roboto', sans-serif;
     color: darkslategray;
     font-size: 1.15rem;
+    padding: 1%;
 }
 
 #jobSeekerInfo {
@@ -277,7 +314,7 @@ p {
 }
 
 #careerResourcesSection {
-    background-color: #B2C98A;
+    background-color: #d3d3d3;
     display: flex;
     flex-direction: column;
     justify-content: center;
