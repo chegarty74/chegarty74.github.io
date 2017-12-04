@@ -185,7 +185,7 @@ nav {
 /* These style the four big headline banners in each of the four section of the index page: */
 
 #jobSeekerBanner {
-    width: 70%;
+    width: 90%;
     height: 20vh;
     padding: 1%;
     margin: auto;
@@ -197,7 +197,7 @@ nav {
 }
 
 #businessesBanner {
-    width: 70%;
+    width: 90%;
     height: 20vh;
     padding: 1%;
     margin: auto;
@@ -209,7 +209,7 @@ nav {
 }
 
 #careerResourcesBanner {
-    width: 70%;
+    width: 90%;
     height: 20vh;
     padding: 1%;
     margin: auto;
@@ -221,7 +221,7 @@ nav {
 }
 
 #aboutUsBanner {
-    width: 70%;
+    width: 90%;
     height: 20vh;
     padding: 1%;
     margin: auto;
