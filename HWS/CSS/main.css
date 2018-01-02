@@ -148,7 +148,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .socialLogo {
@@ -350,7 +350,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
     background-color: dodgerblue;
 }
 
@@ -453,8 +453,50 @@ h3 {
     font-size: .9rem;
 }
 
-
 /* MEDIA QUERIES */
+
+@media all and (max-height: 625px) {
+    #socialRow {
+        display: none;
+    }
+
+    .footerLinks {
+        display: none;
+    }
+
+    #socialRowJS {
+        display: none;
+    }
+
+    #fourNavs {
+        padding-top: 0;
+    }
+
+    .mainContainer {
+        padding-top: 0vh;
+    }
+
+    #jobSeekerBanner {
+        margin: 0;
+    }
+
+    #businessesBanner {
+        margin: 0;
+    }
+
+    #careerResourcesBanner {
+        margin: 0;
+    }
+
+    #aboutUsBanner {
+        margin: 0
+    }
+
+    footer {
+        height: 85vh;
+    }
+
+}
 
 @media all and (min-width: 0px) and (max-width: 991px) {
 
@@ -585,7 +627,7 @@ h3 {
 
     #jobSeekerNav {
         width: 100%;
-        text-align: center;
+        /*text-align: center;*/
         font-size: 1rem;
         height: auto;
 
