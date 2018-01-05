@@ -451,10 +451,14 @@ h3 {
 
 /* MEDIA QUERIES */
 
-/*@media all and (-ms-high-contrast: none),
+@media all and (-ms-high-contrast: none),
 (-ms-high-contrast: active) {
-     IE10+ CSS styles go here 
-} */
+
+    #logo {
+        min-height: 20vh;
+    }
+
+}
 
 @media all and (max-height: 625px) {
     #socialRow {
@@ -475,7 +479,7 @@ h3 {
 
     .mainContainer {
         padding-top: 0vh;
-        */
+
     }
 
     #jobSeekerBanner {
