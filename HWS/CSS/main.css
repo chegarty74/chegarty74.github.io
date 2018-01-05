@@ -8,7 +8,7 @@
 }
 
 .mainContainer {
-    height: 100vh;
+    min-height: 100vh;
     padding: 1rem;
     padding-top: 10vh;
 
@@ -472,29 +472,29 @@ h3 {
         padding-top: 0;
     }
 
-    .mainContainer {
-        padding-top: 0vh;
-    }
+    /*.mainContainer {
+        padding-top: 0vh;*/
+}
 
-    #jobSeekerBanner {
-        margin: 0;
-    }
+#jobSeekerBanner {
+    margin: 0;
+}
 
-    #businessesBanner {
-        margin: 0;
-    }
+#businessesBanner {
+    margin: 0;
+}
 
-    #careerResourcesBanner {
-        margin: 0;
-    }
+#careerResourcesBanner {
+    margin: 0;
+}
 
-    #aboutUsBanner {
-        margin: 0
-    }
+#aboutUsBanner {
+    margin: 0
+}
 
-    footer {
-        height: 85vh;
-    }
+footer {
+    height: 85vh;
+}
 
 }
 
