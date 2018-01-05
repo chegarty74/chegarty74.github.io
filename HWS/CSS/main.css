@@ -60,6 +60,8 @@ nav {
 }
 
 #logo {
+    /* adding min-height to fix display issue in IE */
+    min-height: 20vh;
     width: 33vw;
     margin-left: 33vw;
     padding-top: 2%
