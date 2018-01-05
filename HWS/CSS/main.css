@@ -60,8 +60,7 @@ nav {
 }
 
 #logo {
-    /* adding min-height to fix display issue in IE */
-    min-height: 20vh;
+
     width: 33vw;
     margin-left: 33vw;
     padding-top: 2%
@@ -184,7 +183,7 @@ nav {
     justify-content: center;
 }
 
-/* These style the four big headline banners in each of the four section of the index page: */
+/* These style the four big headline banners in each of the four sections of the index page: */
 
 #jobSeekerBanner {
     width: 90%;
@@ -414,15 +413,10 @@ h3 {
     list-style: none;
 }
 
-
-
-
 #footerEmployers {
     width: 15%;
     display: flex;
     flex-direction: column;
-
-
 }
 
 #footerEmployers li {
@@ -456,6 +450,11 @@ h3 {
 }
 
 /* MEDIA QUERIES */
+
+/*@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+     IE10+ CSS styles go here 
+} */
 
 @media all and (max-height: 625px) {
     #socialRow {
