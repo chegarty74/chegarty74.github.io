@@ -71,7 +71,7 @@ nav {
 }
 
 #hwsLogo {
-    width: auto%;
+    width: auto;
     height: 80%;
     margin-top: 4%;
     margin-left: 10%
@@ -147,7 +147,7 @@ nav {
     min-height: 0vh;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    line-height: 10vh;
+    line-height: 7vh;
     flex-wrap: wrap;
 
 
@@ -188,7 +188,7 @@ nav {
 }
 
 .socialLogo {
-    height: 5vh;
+    height: 4vh;
     margin: 0 2vw 0 2vw;
 }
 
@@ -620,6 +620,10 @@ h3 {
         max-width: 100%;
 
 
+    }
+
+    #slideshow {
+        display: none;
     }
 
     #missionStatement {
