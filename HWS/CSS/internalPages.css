@@ -24,6 +24,12 @@ ul {
     font-size: 1.15rem;
 }
 
+footer ul {
+    font-size: 1rem;
+}
+
+
+
 
 .scrollup {
     width: 40px;
@@ -43,6 +49,8 @@ ul {
     height: 100%;
     padding: 5%
 }
+
+
 
 
 @media all and (min-width: 0px) and (max-width: 991px) {
