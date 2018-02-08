@@ -62,30 +62,59 @@ nav {
 
 
 #logo {
-
-    width: 33vw;
-    margin-left: 33vw;
-    padding-top: 2%
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*background: #ffffff;*/
+    padding-top: 0%
 }
 
 #hwsLogo {
-    max-height: 100%;
-    max-width: 100%;
+    width: auto%;
+    height: 80%;
+    margin-top: 4%;
+    margin-left: 10%
 }
+
+#slideshow {
+
+    margin: 5%;
+    position: relative;
+    width: 35%;
+    height: 40vh;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carouselPic {
+    height: 100%;
+    width: 100%;
+}
+
 
 #missionStatement {
     font-family: 'Montserrat', sans-serif;
 
     color: #6D7070;
-    font-size: 1.15rem;
+    font-size: 1.0rem;
     /*font-style: italic;*/
     text-align: center;
     margin: 0;
     letter-spacing: .02em;
-    padding: 1vh;
+    padding: 0vh;
     /*background: #ffffff;*/
-    width: 50vw;
-    margin-left: 25%;
+    width: 90vw;
+    margin-left: 0%;
 
 }
 
@@ -95,7 +124,8 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-top: 15vh;
+
+    padding-top: 0vh;
 }
 
 /*#searchBar {
@@ -114,10 +144,10 @@ nav {
    height: 15vh;
     width: 20vw; */
     width: 100%;
-    min-height: 15vh;
+    min-height: 0vh;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    line-height: 15vh;
+    line-height: 10vh;
     flex-wrap: wrap;
 
 
@@ -154,18 +184,18 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 10vh;
+    margin-top: 0vh;
 }
 
 .socialLogo {
-    height: 7vh;
+    height: 5vh;
     margin: 0 2vw 0 2vw;
 }
 
 .footerLinks {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 1%;
+    margin-top: 0%;
     color: #DB490E;
     font-size: 1.1rem
 }
@@ -175,7 +205,7 @@ nav {
 }
 
 #buffer {
-    margin-bottom: 2vh;
+    margin-bottom: 0vh;
 }
 
 
