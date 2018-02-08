@@ -1,0 +1,782 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+.mainContainer {
+    min-height: 100vh;
+    padding: 1rem;
+    padding-top: 10vh;
+
+}
+
+#home {
+    background-color: #EDE5DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+
+#headerRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header {
+
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #ffffff;
+    height: 10vh;
+    width: 100%;
+    /*display: flex;
+    justify-content: flex-end;*/
+}
+
+.toggle {
+    align-self: flex-end;
+
+}
+
+nav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDE5DE;
+
+}
+
+
+
+#logo {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*background: #ffffff;*/
+    padding-top: 0%
+}
+
+#hwsLogo {
+    width: auto%;
+    height: 80%;
+    margin-top: 4%;
+    margin-left: 10%
+}
+
+#slideshow {
+
+    margin: 5%;
+    position: relative;
+    width: 35%;
+    height: 40vh;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.carouselPic {
+    height: 100%;
+    width: 100%;
+}
+
+
+#missionStatement {
+    font-family: 'Montserrat', sans-serif;
+
+    color: #6D7070;
+    font-size: 1.0rem;
+    /*font-style: italic;*/
+    text-align: center;
+    margin: 0;
+    letter-spacing: .02em;
+    padding: 0vh;
+    /*background: #ffffff;*/
+    width: 90vw;
+    margin-left: 0%;
+
+}
+
+#fourNavs {
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-top: 0vh;
+}
+
+/*#searchBar {
+    padding-top: 10vh;
+}*/
+
+.fourNavLinks {
+
+    /*
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border: 5px solid #FFFFFF;
+   height: 15vh;
+    width: 20vw; */
+    width: 100%;
+    min-height: 0vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 7vh;
+    flex-wrap: wrap;
+
+
+}
+
+.fourNavLinks a {
+    text-decoration: none;
+
+}
+
+#jobSeekers {
+    background: #DB490E;
+}
+
+#businesses {
+    background: #0E490E;
+}
+
+#careerResources {
+    background: #0E4944;
+}
+
+#aboutUs {
+    background: #0E49A3;
+}
+
+.fourNavLinks a {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+}
+
+#socialRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0vh;
+}
+
+.socialLogo {
+    height: 4vh;
+    margin: 0 2vw 0 2vw;
+}
+
+.footerLinks {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0%;
+    color: #DB490E;
+    font-size: 1.1rem
+}
+
+.footerLinks a {
+    color: #1671FF
+}
+
+#buffer {
+    margin-bottom: 0vh;
+}
+
+
+/* Begin Job Seekers CSS */
+
+#jobSeekersSection {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* These style the four big headline banners in each of the four sections of the index page: */
+
+#jobSeekerBanner {
+    width: 90%;
+    height: 20vh;
+    padding: 1%;
+    margin: auto;
+    border: thick solid #ffffff;
+    background: #DB490E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#businessesBanner {
+    width: 90%;
+    height: 20vh;
+    padding: 1%;
+    margin: auto;
+    border: thick solid #ffffff;
+    background: #0E490E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#careerResourcesBanner {
+    width: 90%;
+    height: 20vh;
+    padding: 1%;
+    margin: auto;
+    border: thick solid #ffffff;
+    background: #0E4944;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutUsBanner {
+    width: 90%;
+    height: 20vh;
+    padding: 1%;
+    margin: auto;
+    border: thick solid #ffffff;
+    background: #0E49A3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#jobSeekerContent {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#jobSeekerNav {
+    width: 25%;
+    height: 44vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#jobSeekerNav li {
+    padding: 3%
+}
+
+ul {
+    list-style: none;
+}
+
+
+#jobSeekerNav ul {
+    height: 40vh;
+}
+
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    color: #ffffff;
+
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.15rem;
+    font-style: italic;
+    color: #ffffff;
+    margin: 0;
+
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 1.15rem;
+    padding: 1%;
+}
+
+#jobSeekerInfo {
+    width: 50%;
+    height: 44vh;
+
+}
+
+#socialRowJS {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5vh;
+
+}
+
+#businessesSection {
+    background-color: #EDE5DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#careerResourcesSection {
+    background-color: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#aboutUsSection {
+    background-color: #EDE5DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#mobileNav {
+    height: 100vh;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#mobileNav a {
+    display: block;
+    height: 18%;
+    border: 4px solid black;
+    margin: 4px;
+    text-align: center;
+    line-height: 18vh;
+    font-size: 1.5rem;
+}
+
+/* BEGIN FOOTER CSS */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 80vh;
+    background-color: dodgerblue;
+}
+
+#footerLogo {
+    width: 30%;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #ffffff
+}
+
+#hwsVerticalLogo {
+
+    max-height: 15vh;
+    width: 90%;
+    margin-top: 5%;
+
+
+}
+
+#contactText {
+    padding: 6%;
+    text-align: center;
+}
+
+
+#footerLogo p {
+    margin: 0;
+    padding: 0;
+
+}
+
+footer li {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 5%
+}
+
+footer ul a {
+    color: #ffffff
+}
+
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#footerJobSeekers {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footerJobSeekers li {
+    list-style: none;
+}
+
+#footerEmployers {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+#footerEmployers li {
+    list-style: none;
+}
+
+#footerCareerResources {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footerCareerResources li {
+    list-style: none;
+}
+
+#footerAboutUs {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footerAboutUs li {
+    list-style: none;
+}
+
+#contactText p {
+    font-size: .9rem;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+
+    #logo {
+        min-height: 20vh;
+    }
+
+}
+
+@media all and (max-height: 625px) {
+    #socialRow {
+        display: none;
+    }
+
+    .footerLinks {
+        display: none;
+    }
+
+    #socialRowJS {
+        display: none;
+    }
+
+    #fourNavs {
+        padding-top: 0;
+    }
+
+    .mainContainer {
+        padding-top: 0vh;
+
+    }
+
+    #jobSeekerBanner {
+        margin: 0;
+    }
+
+    #businessesBanner {
+        margin: 0;
+    }
+
+    #careerResourcesBanner {
+        margin: 0;
+    }
+
+    #aboutUsBanner {
+        margin: 0
+    }
+
+    footer {
+        height: 85vh;
+    }
+
+}
+
+@media all and (min-width: 0px) and (max-width: 991px) {
+
+    header {
+        /*display: flex;
+        flex-direction: row;
+        justify-content: center;*/
+        height: 10vh;
+        background-color: cornflowerblue;
+
+    }
+
+    nav {
+        top: 10vh;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: cornflowerblue;
+        display: none;
+    }
+
+    .navlinks {
+        border-bottom: 5px solid white;
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        height: 18vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .navlinks a {
+        text-decoration: none;
+    }
+
+    #menu-toggle {
+
+        height: 10vh;
+        width: 10vh;
+        border: 0px solid #ffffff;
+        background-color: cornflowerblue;
+        position: absolute;
+        right: 0;
+    }
+
+
+    #menu-toggle img {
+
+        height: 7vh;
+        width: 7vh%;
+        max-height: 100%;
+        max-width: 100%;
+        margin-top: 12%;
+
+    }
+
+    .separator {
+        display: none;
+    }
+
+
+    #logo {
+
+
+        width: 80vw;
+        z-index: 1;
+        margin-left: 0vw;
+        padding: 0;
+
+    }
+
+    #logo img {
+
+
+        max-height: 100%;
+        max-width: 100%;
+
+
+    }
+
+    #missionStatement {
+        display: none;
+    }
+
+    #fourNavs {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-top: 0;
+
+    }
+
+    .fourNavLinks {
+        margin: 0rem;
+        width: 100%;
+        min-height: 7vh;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 10vh;
+    }
+
+    #jobSeekerInfo {
+        display: none;
+    }
+
+    #jobSeekerBanner {
+        width: 100%;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+        display: none;
+    }
+
+    #socialRow {
+        margin-top: 2%;
+    }
+
+    .footerLinks {
+        font-size: .5rem;
+    }
+
+    #jobSeekerNav {
+        width: 100%;
+        /*text-align: center;*/
+        font-size: 1rem;
+        height: auto;
+
+    }
+
+    #jobSeekerNav ul {
+        height: auto;
+    }
+
+    #jobSeekerNav li {
+        padding: 1%;
+    }
+
+    #socialRowJS {
+
+        display: none;
+    }
+
+    /* This code collapses the footer by hiding all divs except the left div containing the logo*/
+    footer {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #footerLogo {
+        width: 80%;
+        height: 80%;
+    }
+
+
+
+    #hwsVerticalLogo {
+
+        max-height: 100%;
+        width: 90%;
+        margin-top: 0%;
+
+    }
+
+    #contactText {
+        padding: 1%;
+    }
+
+    #footerJobSeekers {
+        display: none;
+    }
+
+    #footerJobSeekers {
+        display: none;
+    }
+
+    #footerEmployers {
+        display: none;
+    }
+
+    #footerCareerResources {
+        display: none;
+    }
+
+    #footerAboutUs {
+        display: none;
+    }
+
+    #buffer {
+        margin-bottom: 0;
+    }
+
+
+}
+
+
+@media (min-width: 992px) {
+    #menu-toggle {
+        display: none;
+    }
+
+    #menu-toggle img {
+        display: none;
+    }
+
+    #mobileNav {
+        display: none;
+    }
+
+    .navlinks {
+        font-size: 1.25rem;
+        margin: 0 1% 0 1%;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .navlinks a {
+        color: #0E49A3;
+
+
+    }
+
+    .navLinks {
+        line-height: 9vh;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+}
