@@ -497,6 +497,13 @@ h3 {
 }
 
 @media all and (max-height: 625px) {
+
+
+    #slideshow {
+        width: 30%;
+    }
+
+
     #socialRow {
         display: none;
     }
@@ -539,6 +546,15 @@ h3 {
     }
 
 }
+
+@media all and (max-height: 675px) {
+
+    .mainContainer {
+        padding-top: 5vh;
+
+    }
+}
+
 
 @media all and (min-width: 0px) and (max-width: 991px) {
 
